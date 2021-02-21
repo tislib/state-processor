@@ -1,0 +1,4 @@
+rootProject.name = 'state-processor'
+include 'processor'
+include 'example'
+
