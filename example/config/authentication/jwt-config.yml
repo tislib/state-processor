@@ -1,0 +1,13 @@
+kind: spring/authentication/jwt/v1
+metadata:
+  name: jwt-config
+spec:
+  enable: true
+  tokenConfig:
+    key: ks2309jd9023jd89jh89ahsd9yf89sdf89ds
+    expireDurationSeconds: 3600000
+    encToken: false
+  authentication:
+    paths:
+      loginPath: /api/1.0/authenticate
+

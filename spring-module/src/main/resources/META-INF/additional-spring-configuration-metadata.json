@@ -1,0 +1,8 @@
+{
+  "properties": [x
+    {
+      "name": "stateprocessor.configdir",
+      "type": "java.lang.String",
+      "description": "Description for stateprocessor.configdir."
+  }
+] }

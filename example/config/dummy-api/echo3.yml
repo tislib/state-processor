@@ -1,0 +1,12 @@
+kind: DummyApi/v2
+metadata:
+  name: echo3
+    enabled: false
+spec:
+  endpoints:
+    - path: /echo3/test
+      body: I am ok from echo2
+    - path: /echo3/test2
+      headers:
+        Content-Type: application/json
+      body: '{ "ok": true }'
